@@ -1,0 +1,12 @@
+/*
+Capstone Project Style Sheet
+Name: Sam Resnik
+Date: 12/7/2010
+*/
+h1         {background-color: white; color: rgb(0,47,129); text-align: center}
+body       {background-color: rgb(88,154,190)}
+#mainlogor {margin: .25em 0em 0em 1em; width: 75px; height: 60px;}
+#currentbook {width: 146px; height: 238px}
+#symbol    {width: 100px; height: 100px}
+@media screen and (min-width: 480px){
+#mainlogol {margin: .25em 1em 0em 0em; width: 75px; height: 60px;}}

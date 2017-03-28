@@ -1,0 +1,61 @@
+<HTML>
+<head>
+
+<!-- 
+   Sam Resnik
+   Capstone Project
+   12/7/2010
+-->
+
+<title>Cleveland Heights Book Club</title>
+<link href="Styles.css" rel="stylesheet" type="text/css" />
+   <link rel="shortcut icon" href="favicon.ico" >
+   <link rel="icon" type="image/gif" href="animated_favicon1.gif" >
+   <script type="text/javascript">
+      function startTime()
+      {var today=new Date(); var h=today.getHours(); var m=today.getMinutes(); var s=today.getSeconds();
+      m=checkTime(m); s=checkTime(s); document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+      t=setTimeout('startTime()',500)}
+
+      function checkTime(i)
+      {if (i<10)
+      { i="0" + i }
+      return i}
+   </script>
+<script language="JavaScript">
+<!-- //
+function recheck()
+{
+alert("Be sure to come back next month to see what our next book will be!!")
+}
+</script>
+</head>
+<body onload="startTime()" onUnload="javascript:recheck()">
+<h1><img src="main_logo.jpg" alt="Heights_Library" id="mainlogol" />Cleveland Heights Book Club<img src="main_logo.jpg" alt="Heights_Library" id="mainlogor" /></h1>
+   <a href="about_us.htm">About Us</a> &#183;
+   <a href="additionalresources.htm">Additional Resources</a> &#183;
+   <a href="signupform.htm">Sign Up</a>
+<h4>December&#8217;s Book is:</h4>
+<a href="http://res1010dlquiz.webs.com" onmouseover="alert('December&#8217;s book selection is: &#8221;The Eye of the World&#8220; by #1 New York Times bestselling author Robert Jordan. &#8221;Jordan has come to dominate the world that Tolkien began to reveal.&#8220; -- The New York Times.');return false"><img src="the-eye-of-the-world.jpg" alt="book_cover" id="currentbook" /></a><img src="the-eye-of-the-world-robert-jordan-uk.jpeg" alt="book_cover" id="currentbook" />
+<img src="wheeloftime.gif" alt="series" id="symbol" />
+<hr />
+&#8220;Plot Summary&#8221; - &#8220;The Eye of the World&#8221; is the first book of The Wheel of Time (WoT) fantasy series written by American author Robert Jordan.  The High Fantasy novel relates a tale of the bestial Trollocs, the witch Moiraine, and three boys, one of whom is fated to become the Dragon -- the World&#8217;s only hope and the sure means of its destruction.
+<hr />
+<address>
+   <span>Cleveland Heights Main Library</span> &#183;
+   2345 Lee Road &#183;
+   Cleveland Heights, OH 44118 &#183;
+   (216) 277-3825
+</address>
+<hr />
+<script type="text/javascript">
+var d = new Date()
+document.write(d.getDate())
+document.write(".")
+document.write(d.getMonth() + 1)
+document.write(".")
+document.write(d.getFullYear())
+</script>
+<div id="txt"></div>
+</body>
+</HTML>
